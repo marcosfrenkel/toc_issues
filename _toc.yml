@@ -1,0 +1,23 @@
+format: jb-book
+root: Testing Project
+defaults:
+  maxdepth: 7
+
+chapters:
+  - file: Testing Pandas
+    sections:
+      - file: testing_pandas/Get Panda
+        sections:
+          - file: testing_pandas/Look for panda images
+          - file: testing_pandas/Found Pandas
+          - file: testing_pandas/Choose Panda
+      - file: testing_pandas/Named Panda
+
+  - file: Testing Koalas
+    sections:
+      - file: Get Koala
+        sections:
+          - file: Look for koala images
+          - file: Found koalas
+          - file: Choose koala
+      - file: Named koala
